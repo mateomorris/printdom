@@ -1,5 +1,5 @@
 {
-  "name": "printdom",
+  "name": "printwhat",
   "version": "0.0.2",
   "description": "Print *just* a specific element on the page",
   "main": "build/index.js",
