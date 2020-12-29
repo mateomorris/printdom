@@ -13,11 +13,7 @@
     "url": "git+https://github.com/mateomorris/colordom.git"
   },
   "keywords": [
-    "color",
-    "extract",
-    "color",
-    "color",
-    "attributes"
+    "print"
   ],
   "author": "Mateo Morris",
   "license": "ISC",
@@ -28,7 +24,5 @@
   "devDependencies": {
     "snowpack": "^2.18.5"
   },
-  "dependencies": {
-    "colorthief": "^2.3.2"
-  }
+  "dependencies": {}
 }
