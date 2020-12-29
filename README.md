@@ -1,4 +1,4 @@
-# printdom.js
+# printwhat.js
 ## Print *just* a specific element on the page 
 
 ```html
