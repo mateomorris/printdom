@@ -1,0 +1,34 @@
+{
+  "name": "printdom",
+  "version": "0.0.1",
+  "description": "Print *just* a specific element on the page",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateomorris/colordom.git"
+  },
+  "keywords": [
+    "color",
+    "extract",
+    "color",
+    "color",
+    "attributes"
+  ],
+  "author": "Mateo Morris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateomorris/colordom/issues"
+  },
+  "homepage": "https://github.com/mateomorris/colordom#readme",
+  "devDependencies": {
+    "snowpack": "^2.18.5"
+  },
+  "dependencies": {
+    "colorthief": "^2.3.2"
+  }
+}
