@@ -1,6 +1,6 @@
 {
   "name": "printwhat",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Print *just* a specific element on the page",
   "main": "build/index.js",
   "scripts": {
