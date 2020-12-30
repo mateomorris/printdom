@@ -1,2 +1,2 @@
-import * as printdom from './printdom.js'
-export default printdom
+import * as printwhat from './printwhat.js'
+export default printwhat
