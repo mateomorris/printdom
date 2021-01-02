@@ -23,8 +23,9 @@ const app = express();
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));
 
-app.get('/:id', async (req, res) => {
-  const { key, endpoint } = req.query
+app.get('/:endpoint', async (req, res) => {
+  const { key } = req.query
+  const endpoint = req.params.endpoint
   const testdb = firestore.collection(endpoint)
   const snapshot = await testdb.doc(key).get()
   res.send(snapshot.data())
@@ -36,10 +37,14 @@ app.get('/:id', async (req, res) => {
   //   res.send({data})
   // });
 });
-// app.post('/', (req, res) => res.send(Widgets.create()));
-// app.put('/:id', (req, res) => res.send(Widgets.update(req.params.id, req.body)));
-// app.delete('/:id', (req, res) => res.send(Widgets.delete(req.params.id)));
-// app.get('/', (req, res) => res.send(Widgets.list()));
+
+app.post('/:endpoint', async (req, res) => {
+  const { key, value } = JSON.parse(req.body)
+  const endpoint = req.params.endpoint
+  const testdb = firestore.collection(endpoint)
+  const snapshot = await testdb.doc(key).set({ value })
+  res.send(true)
+});
 
 // Expose Express API as a single Cloud Function:
 export const db = functions.https.onRequest(app);
