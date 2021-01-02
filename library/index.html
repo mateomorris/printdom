@@ -10,7 +10,9 @@
     import lildb from '../lildb.js'
     lildb.connect('mateo')
     lildb.set('another', 'NEW OTHER VALUE')
-    lildb.get('newfoo')
+    lildb.get('newfoo').then(res => {
+      console.log(res)
+    })
   </script>
 
   <!-- A way to get Tailwind working without a build step -->
