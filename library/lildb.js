@@ -1,6 +1,6 @@
 import axios from 'axios'
 import firebase from 'firebase/app'
-import 'firebase/functions'
+import fbFunctions from 'firebase/functions'
 
 // Your web app's Firebase configuration
 var firebaseConfig = {

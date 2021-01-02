@@ -1,2 +1,2 @@
-import * as lildb from './lildb.js'
+import * as lildb from './build/index.js'
 export default lildb
