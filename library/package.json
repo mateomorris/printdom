@@ -1,9 +1,11 @@
 {
   "name": "lildb",
-  "version": "0.0.6",
+  "version": "0.0.11",
   "description": "a lil database",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/mateomorris/lildb/issues"
   },
-  "homepage": "https://github.com/mateomorris/lildb#readme"
+  "homepage": "https://github.com/mateomorris/lildb#readme",
+  "dependencies": {
+    "firebase": "^8.2.1"
+  }
 }

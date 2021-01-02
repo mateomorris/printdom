@@ -9,10 +9,11 @@
   <script type="module">
     import lildb from '../lildb.js'
     lildb.connect('mateo')
-    lildb.set('newfoo', 'NEWFOOVALUE').then(res => {
-      lildb.get('newfoo').then(res => {
-        console.log('res', res)
-      })
+    // lildb.set('newfoo', 'NEWFOOVALUE').then(res => {
+    //   console.log('setres', res)
+    // })
+    lildb.get('newfoo').then(res => {
+      console.log('gotten', res)
     })
   </script>
 

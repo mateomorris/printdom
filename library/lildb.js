@@ -1,30 +1,13 @@
-import axios from 'axios'
-import firebase from 'firebase/app'
-import fbFunctions from 'firebase/functions'
-
-// Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: "AIzaSyCD8_bwMiQBhoUqgOyrcBYEF39AjtdLcK4",
-  authDomain: "lildb-8ff35.firebaseapp.com",
-  projectId: "lildb-8ff35",
-  storageBucket: "lildb-8ff35.appspot.com",
-  messagingSenderId: "558432690545",
-  appId: "1:558432690545:web:88767bbd60e400557b16d0"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-const functions = firebase.functions()
-if (window.location.hostname === 'localhost') {
-  functions.useFunctionsEmulator('http://localhost:5000')
-}
-
-var fbFunctions = functions.httpsCallable('db');
-
 let endpoint
 async function runFbFunction(args) {
   if (endpoint) {
-    return await fbFunctions({ ...args, endpoint })
+    // return await fbFunctions({ ...args, endpoint })
+    // const foo = await fetch('http://localhost:5000/lildb-8ff35/us-central1/db', args)
+    return fetch(`http://localhost:5000/lildb-8ff35/us-central1/db/foo?endpoint=${endpoint}&key=${args.key}`, {
+      method: 'GET',
+      // body: JSON.stringify(args)
+    })
+      .then(response => response.json())
   } else {
     console.error('lildb needs an endpoint')
     return {
@@ -33,24 +16,21 @@ async function runFbFunction(args) {
   }
 }
 
-// an api to modify get and set data
+// an api to modify, get, and set data
 
 export default {
   connect: (end) => {
     endpoint = end
   }, 
   get: async (key) => {
-    const {data} = await runFbFunction({ type: 'GET', key })
-    return data
+    return await fetch(`http://localhost:5000/lildb-8ff35/us-central1/db/foo?endpoint=${endpoint}&key=${key}`)
+    .then(response => response.json())
   },
   set: async (key, value) => {
-    const {data} = await runFbFunction({ type: 'SET', key, value })
-    console.log(data)
-    return data
+    return await runFbFunction({ type: 'SET', key, value })
   },
   update: async (key, value) => {
-    const {data} = await fbFunctions({ type: 'UPDATE', key, value })
-    return data
+    return await fbFunctions({ type: 'UPDATE', key, value })
   }
 }
 
