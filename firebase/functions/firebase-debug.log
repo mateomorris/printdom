@@ -2250,3 +2250,13 @@
 [debug] [2021-01-02T22:22:57.628Z] [runtime-status] [22578] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/mateo/Desktop/lildb/firebase/functions/node_modules/firebase-admin/lib/index.js"}
 [debug] [2021-01-02T22:22:57.630Z] [runtime-status] [22578] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/mateo/Desktop/lildb/firebase/functions/node_modules/firebase-functions/lib/index.js"}
 [debug] [2021-01-02T22:22:57.632Z] [runtime-status] [22578] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/mateo/Desktop/lildb/firebase/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-02T22:22:58.487Z] [runtime-status] [22578] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:22:58.487Z] [runtime-status] [22578] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:22:58.487Z] [runtime-status] [22578] Running db in mode HTTPS
+[debug] [2021-01-02T22:22:58.507Z] [runtime-status] [22578] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22578.sock
+[debug] [2021-01-02T22:22:58.510Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:22:58.594Z] [runtime-status] [22578] Ephemeral server handling GET request
+[debug] [2021-01-02T22:22:58.603Z] [runtime-status] [22578] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:22:59.121Z] [worker-db-89aaf79a-4ce2-488f-a068-8932622d3584]: IDLE
