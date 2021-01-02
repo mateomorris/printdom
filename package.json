@@ -1,28 +1,24 @@
 {
-  "name": "printwhat",
+  "name": "lildb",
   "version": "0.0.1",
-  "description": "Print *just* a specific element on the page",
-  "main": "build/index.js",
+  "description": "a lil database",
+  "main": "index.js",
   "scripts": {
-    "dev": "snowpack dev",
-    "build": "snowpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mateomorris/colordom.git"
+    "url": "git+https://github.com/mateomorris/lildb.git"
   },
   "keywords": [
-    "print"
+    "database",
+    "small",
+    "nosql"
   ],
   "author": "Mateo Morris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mateomorris/colordom/issues"
+    "url": "https://github.com/mateomorris/lildb/issues"
   },
-  "homepage": "https://github.com/mateomorris/colordom#readme",
-  "devDependencies": {
-    "snowpack": "^2.18.5"
-  },
-  "dependencies": {}
+  "homepage": "https://github.com/mateomorris/lildb#readme"
 }
