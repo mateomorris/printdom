@@ -1,6 +1,6 @@
 {
   "name": "lildb",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "a lil database",
   "main": "build/index.js",
   "scripts": {

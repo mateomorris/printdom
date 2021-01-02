@@ -3304,3 +3304,218 @@
 [debug] [2021-01-02T22:36:38.980Z] [worker-db-1b37bd7b-4018-4f53-957e-4c3bad6e63e8]: IDLE
 [info] i  functions: Finished "db" in ~1s
 [debug] [2021-01-02T22:36:39.076Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:38:45.994Z] Accepted request GET /lildb-8ff35/us-central1/db/foo --> db
+[debug] [2021-01-02T22:38:45.994Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:38:45.994Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:38:45.995Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:38:45.995Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:38:45.996Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:38:45.996Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:38:45.997Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:38:45.999Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T22:38:45.999Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:38:46.181Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:38:46.182Z] Accepted request GET /lildb-8ff35/us-central1/db/foo --> db
+[debug] [2021-01-02T22:38:46.182Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:38:46.182Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:38:46.192Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:38:46.193Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:38:46.193Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:38:46.193Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:38:46.194Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:38:46.195Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T22:38:46.196Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:38:46.312Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:40:15.329Z] Accepted request GET /lildb-8ff35/us-central1/db/foo --> db
+[debug] [2021-01-02T22:40:15.329Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:40:15.329Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:40:15.330Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:40:15.330Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:40:15.331Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:40:15.331Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:40:15.332Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:40:15.334Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T22:40:15.335Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:40:15.454Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:40:15.455Z] Accepted request GET /lildb-8ff35/us-central1/db/foo --> db
+[debug] [2021-01-02T22:40:15.456Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:40:15.456Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:40:15.464Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:40:15.465Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:40:15.465Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:40:15.465Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:40:15.466Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:40:15.469Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T22:40:15.469Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:40:15.571Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:41:52.689Z] Accepted request POST /lildb-8ff35/us-central1/db/mateo --> db
+[debug] [2021-01-02T22:41:52.690Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:41:52.690Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:41:52.692Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:41:52.693Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:41:52.693Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:41:52.693Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:41:52.694Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:41:52.697Z] Accepted request GET /lildb-8ff35/us-central1/db/mateo?key=newfoo --> db
+[debug] [2021-01-02T22:41:52.698Z] [worker-db-1b37bd7b-4018-4f53-957e-4c3bad6e63e8]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_23291.sock
+[debug] [2021-01-02T22:41:52.698Z] [worker-db-1b37bd7b-4018-4f53-957e-4c3bad6e63e8]: BUSY
+[debug] [2021-01-02T22:41:52.704Z] [runtime-status] [22444] Ephemeral server handling POST request
+[debug] [2021-01-02T22:41:52.704Z] [runtime-status] [22444] Ephemeral server survived.
+[debug] [2021-01-02T22:41:52.705Z] [runtime-status] [23291] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:41:52.705Z] [runtime-status] [23291] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:41:52.705Z] [runtime-status] [23291] Running db in mode HTTPS
+[debug] [2021-01-02T22:41:52.708Z] [runtime-status] [23291] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_23291.sock
+[debug] [2021-01-02T22:41:52.709Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:41:52.722Z] [runtime-status] [23291] Ephemeral server handling GET request
+[debug] [2021-01-02T22:41:52.722Z] [runtime-status] [23291] Ephemeral server survived.
+[info] >  [2021-01-02T22:41:52.769Z]  @firebase/firestore: Firestore (8.2.1): Connection GRPC stream error. Code: 13 Message: 13 INTERNAL: Received RST_STREAM with code 2
+[info] >  (node:23291) UnhandledPromiseRejectionWarning: FirebaseError: Failed to get document because the client is offline.
+[info] >      at new FirestoreError (/Users/mateo/Desktop/lildb/firebase/node_modules/@firebase/firestore/dist/node-cjs/database-21da52c3-e2da0fdd.js:209:28)
+[info] >      at next (/Users/mateo/Desktop/lildb/firebase/node_modules/@firebase/firestore/dist/node-cjs/database-21da52c3-e2da0fdd.js:20968:31)
+[info] >      at Timeout._onTimeout (/Users/mateo/Desktop/lildb/firebase/node_modules/@firebase/firestore/dist/node-cjs/database-21da52c3-e2da0fdd.js:19885:21)
+[info] >      at listOnTimeout (internal/timers.js:531:17)
+[info] >      at processTimers (internal/timers.js:475:7)
+[info] >  (node:23291) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+[info] >  (node:23291) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:41:52.933Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:42:31.180Z] Accepted request POST /lildb-8ff35/us-central1/db/mateo --> db
+[debug] [2021-01-02T22:42:31.180Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:42:31.180Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:42:31.180Z] Accepted request GET /lildb-8ff35/us-central1/db/mateo?key=newfoo --> db
+[debug] [2021-01-02T22:42:31.181Z] [worker-db-340b7fee-55a0-495f-b650-2f799e5a73ff]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_23310.sock
+[debug] [2021-01-02T22:42:31.181Z] [worker-db-340b7fee-55a0-495f-b650-2f799e5a73ff]: BUSY
+[debug] [2021-01-02T22:42:31.181Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:42:31.181Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:42:31.181Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:42:31.181Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:42:31.181Z] [runtime-status] [23310] Trigger "db" has been found, beginning invocation!
+[debug] [2021-01-02T22:42:31.182Z] [functions] Runtime ready! Sending request!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:42:31.184Z] [runtime-status] [23310] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:42:31.185Z] [runtime-status] [23310] Running db in mode HTTPS
+[debug] [2021-01-02T22:42:31.185Z] [runtime-status] [23310] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_23310.sock
+[debug] [2021-01-02T22:42:31.185Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:42:31.195Z] [runtime-status] [22444] Ephemeral server handling POST request
+[debug] [2021-01-02T22:42:31.195Z] [runtime-status] [22444] Ephemeral server survived.
+[debug] [2021-01-02T22:42:31.200Z] [runtime-status] [23310] Ephemeral server handling GET request
+[debug] [2021-01-02T22:42:31.200Z] [runtime-status] [23310] Ephemeral server survived.
+[info] >  [2021-01-02T22:42:31.248Z]  @firebase/firestore: Firestore (8.2.1): Connection GRPC stream error. Code: 13 Message: 13 INTERNAL: Received RST_STREAM with code 2
+[info] >  (node:23310) UnhandledPromiseRejectionWarning: FirebaseError: Failed to get document because the client is offline.
+[info] >      at new FirestoreError (/Users/mateo/Desktop/lildb/firebase/node_modules/@firebase/firestore/dist/node-cjs/database-21da52c3-e2da0fdd.js:209:28)
+[info] >      at next (/Users/mateo/Desktop/lildb/firebase/node_modules/@firebase/firestore/dist/node-cjs/database-21da52c3-e2da0fdd.js:20968:31)
+[info] >      at Timeout._onTimeout (/Users/mateo/Desktop/lildb/firebase/node_modules/@firebase/firestore/dist/node-cjs/database-21da52c3-e2da0fdd.js:19885:21)
+[info] >      at listOnTimeout (internal/timers.js:531:17)
+[info] >      at processTimers (internal/timers.js:475:7)
+[info] >  (node:23310) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+[info] >  (node:23310) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:42:31.331Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:42:41.862Z] Accepted request POST /lildb-8ff35/us-central1/db/mateo --> db
+[debug] [2021-01-02T22:42:41.862Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:42:41.862Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:42:41.863Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:42:41.863Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:42:41.863Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:42:41.863Z] Accepted request GET /lildb-8ff35/us-central1/db/mateo?key=newfoo --> db
+[debug] [2021-01-02T22:42:41.875Z] [worker-db-c15520c4-f869-4855-b8e1-8d691138a0dc]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_24632.sock
+[debug] [2021-01-02T22:42:41.876Z] [worker-db-c15520c4-f869-4855-b8e1-8d691138a0dc]: BUSY
+[debug] [2021-01-02T22:42:41.876Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:42:41.877Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:42:41.884Z] [runtime-status] [22444] Ephemeral server handling POST request
+[debug] [2021-01-02T22:42:41.884Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:42:42.001Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:42:42.597Z] [runtime-status] [24632] Functions runtime initialized. {"cwd":"/Users/mateo/Desktop/lildb/firebase/functions","node_version":"12.0.0"}
+[debug] [2021-01-02T22:42:42.599Z] [runtime-status] [24632] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2021-01-02T22:42:42.605Z] [runtime-status] [24632] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/mateo/Desktop/lildb/firebase/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-01-02T22:42:42.614Z] [runtime-status] [24632] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/mateo/Desktop/lildb/firebase/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-02T22:42:42.614Z] [runtime-status] [24632] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/mateo/Desktop/lildb/firebase/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-02T22:42:43.320Z] [runtime-status] [24632] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:42:43.321Z] [runtime-status] [24632] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:42:43.321Z] [runtime-status] [24632] Running db in mode HTTPS
+[debug] [2021-01-02T22:42:43.328Z] [runtime-status] [24632] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_24632.sock
+[debug] [2021-01-02T22:42:43.331Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:42:43.366Z] [runtime-status] [24632] Ephemeral server handling GET request
+[debug] [2021-01-02T22:42:43.373Z] [runtime-status] [24632] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:42:43.762Z] [worker-db-c15520c4-f869-4855-b8e1-8d691138a0dc]: IDLE
+[debug] [2021-01-02T22:42:56.428Z] Accepted request GET /lildb-8ff35/us-central1/db/foo --> db
+[debug] [2021-01-02T22:42:56.428Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:42:56.428Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:42:56.429Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:42:56.429Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:42:56.429Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:42:56.432Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:42:56.435Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:42:56.437Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T22:42:56.437Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:42:56.609Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:43:04.228Z] Accepted request GET /lildb-8ff35/us-central1/db/foo --> db
+[debug] [2021-01-02T22:43:04.228Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:43:04.228Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:43:04.231Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:43:04.231Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:43:04.232Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:43:04.232Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:43:04.233Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:43:04.236Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T22:43:04.236Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:43:04.346Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:43:05.386Z] Accepted request GET /lildb-8ff35/us-central1/db/mateo?key=newfoo --> db
+[debug] [2021-01-02T22:43:05.386Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:43:05.386Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:43:05.387Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:43:05.387Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:43:05.387Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:43:05.389Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:43:05.390Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:43:05.393Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T22:43:05.393Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:43:05.500Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T22:43:13.332Z] Accepted request GET /lildb-8ff35/us-central1/db/mateo?key=newfoo --> db
+[debug] [2021-01-02T22:43:13.332Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:43:13.332Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T22:43:13.335Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T22:43:13.336Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T22:43:13.336Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T22:43:13.336Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T22:43:13.366Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T22:43:13.368Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T22:43:13.368Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T22:43:13.473Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[debug] [2021-01-02T23:22:44.246Z] Accepted request GET /lildb-8ff35/us-central1/db/mateo?key=newfoo --> db
+[debug] [2021-01-02T23:22:44.247Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: Assigning socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T23:22:44.247Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: BUSY
+[debug] [2021-01-02T23:22:44.251Z] [runtime-status] [22444] Trigger "db" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "db"
+[debug] [2021-01-02T23:22:44.254Z] [runtime-status] [22444] triggerDefinition {"httpsTrigger":{},"name":"db","entryPoint":"db"}
+[debug] [2021-01-02T23:22:44.254Z] [runtime-status] [22444] Running db in mode HTTPS
+[debug] [2021-01-02T23:22:44.255Z] [runtime-status] [22444] Attempting to listen to socketPath: /var/folders/yp/xt28fkrn69b7ny5tnk1wh0tc0000gn/T/fire_emu_22444.sock
+[debug] [2021-01-02T23:22:44.262Z] [functions] Runtime ready! Sending request!
+[debug] [2021-01-02T23:22:44.267Z] [runtime-status] [22444] Ephemeral server handling GET request
+[debug] [2021-01-02T23:22:44.269Z] [runtime-status] [22444] Ephemeral server survived.
+[info] i  functions: Finished "db" in ~1s
+[debug] [2021-01-02T23:22:44.613Z] [worker-db-bbc6dfae-d0aa-43fd-8cf6-64bacf9892e9]: IDLE
+[info] >  [2021-01-02T23:30:22.908Z]  @firebase/firestore: Firestore (8.2.1): Connection GRPC stream error. Code: 14 Message: 14 UNAVAILABLE: 408:Request Timeout

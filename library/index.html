@@ -7,7 +7,7 @@
   </body>
 
   <script type="module">
-    import lildb from '../lildb.js'
+    import lildb from 'https://cdn.skypack.dev/lildb'
     lildb.connect('mateo')
     lildb.set('another', 'NEW OTHER VALUE')
     lildb.get('newfoo').then(res => {
